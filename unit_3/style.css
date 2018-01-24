@@ -1,20 +1,50 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
 body {
-	background-color: #F7B493;
+	background-color: #3d3b3b;
 	text-align: left;
-	background: url("https://68.media.tumblr.com/67d50e8b86d640f1d14b8361438640d7/tumblr_mic1kxXvfO1rszmpio1_1280.jpg");
 	background-size: cover;
 	font-family: Times New Roman;
 	font-style: italic;
-	text-align: center;
+	text-align: left;
+}
+
+header {
+	background-color: #1e1e1e;
+	padding: 15px;
+}
+
+nav {
+}
+
+img {
+	width: 100%;
+}
+
+section {
+	padding: 15px;
+}
+
+footer {
+	background-color: #1e1e1e;
+	padding: 15px;
+	position: bottom;
 }
 
 ul {
-    text-align: center;
+    text-align: left;
     list-style-type: none;
 }
 
 h1, p , li {
-	color: #af6f67;
+	color: #e6dbdb;
 	text-transform: uppercase;
 }
 
