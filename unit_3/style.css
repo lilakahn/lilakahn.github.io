@@ -1,0 +1,29 @@
+body {
+	background-color: #F7B493;
+	text-align: left;
+	background: url("https://68.media.tumblr.com/67d50e8b86d640f1d14b8361438640d7/tumblr_mic1kxXvfO1rszmpio1_1280.jpg");
+	background-size: cover;
+	font-family: Times New Roman;
+	font-style: italic;
+	text-align: center;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+h1, p , li {
+	color: #af6f67;
+	text-transform: uppercase;
+}
+
+#slogan {
+	font-size: 22px;
+}
+
+#title {
+	font-style: normal;
+	font-style: italic;
+	font-size: 38px;
+}
