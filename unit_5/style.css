@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro|Lato:400,900);
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-color: #000000;
+	text-align: left;
+	background-size: cover;
+	font-family: Times New Roman;
+	font-style: italic;
+	font-style: bold;
+	text-align: left;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+	text-transform: uppercase;
+}
+
+
+footer {
+	text-transform: uppercase;
+}
+
+/*img {
+	width: 75%;
+}
+*/
+
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer {
+	background-color: #FF975E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+ul {
+    text-align: left;
+    list-style-type: none;
+}
+
+h1 {
+	color: #000000;
+	font-style: bold;
+	font-size: 38px;
+	text-transform: uppercase;
+}
+
+h2 {
+	color: #000000;
+	font-style: bold;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+
+li {
+	color: #000000;
+}
+
+p {
+	color: #000000;
+}
