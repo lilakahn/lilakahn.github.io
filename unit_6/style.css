@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro|Lato:400,900);
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #3d3b3b;
+	text-align: left;
+	background-size: cover;
+	font-family: Times New Roman;
+	font-style: italic;
+	text-align: left;
+	font-variant: small-caps;
+}
+
+header {
+	background-color: #1e1e1e;
+	padding: 15px;
+	display: block;
+}
+
+nav {
+	background: #333;
+	/*display: inline-block;*/
+}
+
+a {
+	/*background-color: #7a7a7a;*/
+	color: white;
+	text-decoration: none;
+	/*display: block;*/
+	padding: 15px;
+}
+
+a:hover {
+	background-color: #aaaaaa;
+}
+
+/*nav a {
+	display: inline-block;
+	/loat: left;*/
+	/*padding: 5px 5px;
+	color: #ffffff;
+	text-decoration: none;
+	border-right: 1px solid #fff;*/
+
+
+footer {
+	text-transform: uppercase;
+}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+section {
+	padding: 15px;
+	display: block;
+}
+
+aside {
+	padding: 15px;
+	font-variant: small-caps;
+	font-size: 15px;
+	display: block;
+}
+
+
+
+ul {
+    text-align: left;
+    list-style-type: none;
+}
+
+h1 {
+	color: #e6dbdb;
+	font-style: bold;
+	font-size: 38px;
+	text-transform: uppercase;
+}
+
+h2 {
+	color: #e6dbdb;
+	font-style: bold;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+
+h3 {
+	color: #e6dbdb;
+	font-style: bold;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+
+li {
+	color: #e6dbdb;
+}
+
+p {
+	color: #e6dbdb;
+}
+
+.column {
+	float: left;
+	/*width: 650px;*/
+  	height: 400px;
+	padding: 15px;
+	margin: 0;
+}
+
+#column1 {
+    padding: 15px;  
+    width: 70%;
+
+}
+
+#column2 {
+    padding: 15px;  
+    width: 20%;
+}
+
+footer {
+	background-color: #1e1e1e;
+	padding: 15px;
+	color: #e6dbdb;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
