@@ -153,15 +153,17 @@ footer {
 @media screen and (max-width: 500px) { 
 	nav a {
 		display: block;
+		border-top: 1% solid #000;
 	}
 	body {
-		margin-left: auto; 
-		margin-right: auto;
+		padding: 0%;
+		width: 100%;
 	}
 	img {
 		width: 100%;
 		padding: 0%;
 	}
+	
 
 }
 
