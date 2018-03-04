@@ -1,0 +1,177 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro|Lato:400,900);
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #fff9f8;
+	text-align: left;
+	background-size: cover;
+	font-family: Times New Roman;
+	font-style: italic;
+	text-align: left;
+	font-variant: small-caps;
+	font-size: 16px;
+}
+
+header {
+	background-color: #fff9f8;
+	padding: 1%;
+	display: block;
+}
+
+nav {
+	background: #ec9b9b;
+	/*display: inline-block;*/
+}
+
+a {
+	/*background-color: #7a7a7a;*/
+	color: #333333;
+	text-decoration: none;
+	/*display: block;*/
+	/*padding: 18px;*/
+	font-size: 1.2em;
+}
+
+a:hover {
+	background-color: #fff9f8;
+}
+
+nav a {
+	display: inline-block;
+	
+	padding: .75em 1em;
+	color: #000000;
+	text-decoration: none;
+	/*border-right: 1px solid #fff;*/
+}
+
+
+footer {
+	text-transform: uppercase;
+}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+/*section {
+	padding: 15px;
+	display: block;
+}*/
+
+aside {
+	padding: 1em;
+	font-variant: small-caps;
+	font-size: 1em;
+	display: block;
+}
+
+
+
+ul {
+    text-align: left;
+    list-style-type: none;
+}
+
+h1 {
+	color: #333333;;
+	font-style: bold;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+h2 {
+	color: #333333;;
+	font-style: bold;
+	font-size: 1.4em;
+	text-transform: uppercase;
+}
+
+h3 {
+	color: #333333;;
+	font-style: bold;
+	font-size: 1.4em;
+	text-transform: uppercase;
+}
+
+li {
+	color: #333333;;
+}
+
+p {
+	color: #333333;;
+}
+
+.column {
+	float: left;
+	/*width: 650px;*/
+  	height: 80%;
+	padding: 1em;
+	margin: 0;
+}
+
+#column1 {
+    padding: 1em;  
+    width: 70%;
+
+}
+
+#column2 {
+    padding: 1em;  
+    width: 20%;
+}
+
+footer {
+	background-color: #fff9f8;
+	padding: 1em;
+	color: #333333;
+}
+
+@media screen and (max-width: 640px) {  
+	body {
+		font-size: 120%;
+	} 
+	#column1 {
+		width: 100%;
+		padding: 3%;
+	}
+	#column2 {
+		width: 100%;
+		padding: 3%;
+	}
+	h1, h2 {
+		width: 100%;
+		padding: 3%;
+	}
+}
+
+@media screen and (max-width: 500px) { 
+	nav a {
+		display: block;
+	}
+	body {
+		margin-left: auto; 
+		margin-right: auto;
+	}
+	img {
+		width: 100%;
+		padding: 0%;
+	}
+
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+
