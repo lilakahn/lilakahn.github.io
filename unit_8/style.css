@@ -56,7 +56,7 @@ footer {
 
 img {
 	width: 100%;
-	display: block;
+	display: inline-block;
 }
 
 /*section {
@@ -153,19 +153,29 @@ footer {
 @media screen and (max-width: 500px) { 
 	nav a {
 		display: block;
-		border-top: 1% solid #000;
+		width: 100%;
+		padding: 2%;
 	}
 	body {
 		padding: 0%;
 		width: 100%;
 	}
-	img {
-		width: 100%;
-		padding: 0%;
-	}
 	
 
+	nav, nav a, h2, h1, img, p {
+		display: block;
+	}
+
+	/*a {
+		color: #333333;
+		text-decoration: none;
+		font-size: 1.2em;
+	}*/
+
 }
+
+
+
 
 .clearfix:after {
   visibility: hidden;
